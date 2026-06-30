@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="DsC9JdXei64xgOli231q2slu0DSVQCjxrNOQzBDzSmw" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Austin Dentist Finder | Heallusa — Same-Day Dental Appointments, Austin TX</title>
+<meta name="description" content="Looking for a dentist in Austin? Heallusa instantly connects you with top-rated dental clinics across Austin, Round Rock & Cedar Park. Free service, same-day emergency appointments. Call now.">
+<meta name="keywords" content="dentist Austin TX, dentist near me Austin, Austin emergency dentist, Austin dental implants, best dentist Austin Texas, family dentist Austin, cosmetic dentist Austin, Round Rock dentist, Cedar Park dentist, Austin orthodontist, teeth whitening Austin">
+<meta name="theme-color" content="#0a7bc4">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Austin Dentist Finder — Heallusa Connects You Fast">
+<meta property="og:description" content="Free service matching Austin residents with trusted local dentists. Emergency care, implants, whitening & more — call now.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://austin.heallusa.com/">
+<link rel="canonical" href="https://austin.heallusa.com/">
+
+<!-- Schema.org Local Business SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Heallusa Austin — Austin Dental Clinic Network",
+  "description": "Free referral service matching Austin, Texas residents with vetted local dental clinics.",
+  "url": "https://austin.heallusa.com/",
+  "telephone": "+18448330097",
+  "areaServed": {
+    "@type": "City",
+    "name": "Austin, Texas"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Austin",
+    "addressRegion": "TX",
+    "addressCountry": "US"
+  },
+  "openingHours": ["Mo-Fr 07:00-19:00", "Sa 10:00-17:00"],
+  "priceRange": "Free Service",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "640"
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#0a7bc4;
+  --blue-dark:#065a94;
+  --blue-light:#2196f3;
+  --gold:#c9a84c;
+  --cream:#f0f8ff;
+  --dark:#0d1f2f;
+  --gray:#4a6280;
+  --light-gray:#d0e8f5;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;color:var(--dark);line-height:1.6;background:#fff}
+
+.ticker{background:var(--blue-dark);color:#fff;padding:11px 0;overflow:hidden;position:sticky;top:0;z-index:100}
+.ticker-wrap{display:flex;overflow:hidden}
+.ticker-move{display:flex;gap:48px;animation:scroll 24s linear infinite;white-space:nowrap}
+.ticker-move span{font-size:13px;font-weight:600;letter-spacing:.3px}
+.ticker-move span em{color:var(--gold);font-style:normal}
+@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+.nav{background:#fff;padding:14px 0;border-bottom:1px solid var(--light-gray);position:sticky;top:44px;z-index:99;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.nav-wrap{display:flex;justify-content:space-between;align-items:center}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-icon{width:40px;height:40px;background:var(--blue);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px}
+.logo-text{font-family:'Playfair Display',serif;font-size:26px;font-weight:900;color:var(--blue-dark);letter-spacing:-0.5px}
+.logo-text span{color:var(--gold)}
+.menu{display:flex;gap:20px;align-items:center}
+.menu a{color:var(--dark);text-decoration:none;font-weight:600;font-size:15px;transition:.2s}
+.menu a:hover{color:var(--blue)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;background:var(--blue);color:#fff;border-radius:8px;text-decoration:none;font-weight:700;transition:.2s;border:none;cursor:pointer;font-size:15px}
+.btn:hover{background:var(--blue-dark);transform:translateY(-1px)}
+.btn-gold{background:var(--gold);color:var(--dark)}
+.btn-gold:hover{background:#b8922e}
+.btn-outline{background:transparent;border:2px solid rgba(255,255,255,.8);color:#fff}
+.btn-outline:hover{background:rgba(255,255,255,.15)}
+.nav-phone-box{display:inline-flex;align-items:center;gap:7px;background:#f5c518;color:#0d1f17;font-weight:800;font-size:14px;padding:8px 16px;border-radius:7px;text-decoration:none;letter-spacing:.2px;box-shadow:0 2px 8px rgba(245,197,24,.4);transition:.2s}
+.nav-phone-box:hover{background:#e0b000}
+.nav-phone-desktop{display:inline-flex}
+.nav-phone-mobile{display:none}
+.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:6px}
+.ham span{width:22px;height:2px;background:var(--dark);border-radius:2px;transition:.3s}
+.flag-pair{display:inline-flex;align-items:center;gap:3px}
+.flag-pair img{display:block}
+
+.hero{position:relative;min-height:80vh;display:flex;align-items:center;}
+.hero-bg{position:absolute;inset:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.hero-overlay{position:absolute;inset:0;background:rgba(0,0,0,0.4)}
+.hero-content{position:relative;z-index:2;color:#fff;padding:70px 0}
+.hero-badge{display:inline-flex!important;align-items:center;gap:10px;background:rgba(201,168,76,.25);border:2px solid rgba(201,168,76,.8);padding:12px 22px;border-radius:10px;font-size:18px;font-weight:900;color:#f5c518;margin-bottom:24px;letter-spacing:1px;text-transform:uppercase;text-shadow:0 1px 4px rgba(0,0,0,.4)}
+.hero h1{font-family:'Playfair Display',serif;font-size:54px;font-weight:900;line-height:1.1;margin-bottom:22px;text-shadow:0 2px 20px rgba(0,0,0,.4)}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{font-size:19px;opacity:.92;max-width:600px;margin-bottom:32px;line-height:1.65}
+
+.hero-phone-box{display:inline-flex;align-items:center;gap:12px;background:#f5c518;border-radius:10px;padding:14px 28px;margin-bottom:24px;box-shadow:0 6px 24px rgba(245,197,24,.4)}
+.hero-phone-box a{font-family:'Playfair Display',serif;font-size:36px;font-weight:900;color:#0d1f17;text-decoration:none;letter-spacing:-0.5px}
+.hero-phone-box .ph-icon{font-size:30px}
+.hero-note{font-size:13px;opacity:.75;margin-top:16px}
+.flex{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+
+@media(max-width:600px){
+  .flex-hero{flex-direction:column;width:100%}
+  .flex-hero .btn{width:100%;justify-content:center;white-space:nowrap;font-size:15px!important;padding:15px 16px!important}
+}
+
+.trust{background:var(--cream);border-top:3px solid var(--gold);border-bottom:1px solid var(--light-gray);padding:24px 0}
+.trust-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;text-align:center}
+.trust-item{padding:16px}
+.trust-num{font-family:'Playfair Display',serif;font-size:34px;font-weight:900;color:var(--blue)}
+.trust-label{font-size:13px;color:var(--gray);margin-top:4px;font-weight:500}
+
+.sect{padding:70px 0}
+.bg-cream{background:var(--cream)}
+.sect-title{font-family:'Playfair Display',serif;font-size:38px;font-weight:900;text-align:center;margin-bottom:12px}
+.sect-sub{text-align:center;color:var(--gray);font-size:17px;margin-bottom:44px;max-width:560px;margin-left:auto;margin-right:auto}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{background:#fff;padding:30px;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.07);transition:.3s;border:1px solid var(--light-gray)}
+.card:hover{box-shadow:0 10px 30px rgba(0,0,0,.12);transform:translateY(-4px)}
+.card-icon{font-size:36px;margin-bottom:16px}
+.card h3{font-family:'Playfair Display',serif;font-size:20px;margin-bottom:10px;color:var(--blue-dark)}
+.card p{color:var(--gray);font-size:15px;line-height:1.7}
+
+.services-list{display:grid;gap:14px}
+.service-row{display:flex;align-items:center;gap:16px;padding:20px 24px;background:#fff;border-radius:12px;border:1px solid var(--light-gray);transition:.2s}
+.service-row:hover{border-color:var(--blue);background:var(--cream)}
+.service-row .icon{font-size:28px;flex-shrink:0}
+.service-row strong{display:block;font-size:16px;color:var(--dark);margin-bottom:4px}
+.service-row span{font-size:14px;color:var(--gray)}
+
+.steps{display:grid;gap:0;grid-template-columns:repeat(3,1fr);position:relative}
+.steps::before{content:'';position:absolute;top:36px;left:16.6%;right:16.6%;height:2px;background:linear-gradient(90deg,var(--gold),var(--blue-light));z-index:0}
+.step{text-align:center;padding:0 20px;position:relative;z-index:1}
+.step-num{width:72px;height:72px;background:var(--blue);border:4px solid #fff;box-shadow:0 4px 16px rgba(10,123,196,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:26px;font-weight:900;color:#fff;margin:0 auto 20px}
+.step h3{font-size:17px;font-weight:700;margin-bottom:8px}
+.step p{font-size:14px;color:var(--gray)}
+
+.neighborhoods{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px;justify-content:center}
+.neighborhood-tag{background:var(--cream);border:1px solid var(--light-gray);border-radius:20px;padding:7px 18px;font-size:14px;font-weight:600;color:var(--blue-dark);transition:.2s}
+.neighborhood-tag:hover{background:var(--blue);color:#fff;border-color:var(--blue)}
+
+.seo-sect{padding:70px 0;background:#fff}
+.seo-sect h2{font-family:'Playfair Display',serif;font-size:34px;font-weight:900;color:var(--blue-dark);margin-bottom:18px}
+.seo-sect h3{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;color:var(--blue-dark);margin:36px 0 12px}
+.seo-sect p{font-size:16px;color:var(--gray);line-height:1.85;margin-bottom:16px}
+.seo-sect ul{margin:12px 0 20px 22px}
+.seo-sect ul li{font-size:15px;color:var(--gray);line-height:1.8;margin-bottom:8px}
+.seo-sect strong{color:var(--dark)}
+
+.service-img-banner{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:32px 0}
+.service-img-banner img{width:100%;height:200px;object-fit:cover;border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,.12);transition:.3s}
+.service-img-banner img:hover{transform:scale(1.02);box-shadow:0 10px 30px rgba(0,0,0,.18)}
+@media(max-width:768px){.service-img-banner{grid-template-columns:1fr;gap:12px}.service-img-banner img{height:180px}}
+
+.disclaimer{background:#fff8e1;border:1px solid #f0d070;border-radius:12px;padding:24px 28px;margin:44px 0 0;font-size:13px;color:#6b5800;line-height:1.8}
+.disclaimer strong{color:#4a3d00}
+
+.fab{position:fixed;bottom:26px;right:26px;width:118px;height:118px;z-index:9999;text-decoration:none;border-radius:50%;}
+.fab-inner{width:118px;height:118px;background:linear-gradient(135deg,var(--blue),var(--blue-light));color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:48px;box-shadow:0 10px 40px rgba(10,123,196,.55);border:4px solid rgba(255,255,255,.35);animation:pulse 2.2s infinite;}
+@keyframes pulse{
+  0%,100%{transform:scale(1);box-shadow:0 10px 40px rgba(10,123,196,.55)}
+  50%{transform:scale(1.12);box-shadow:0 16px 55px rgba(10,123,196,.75)}
+}
+
+.cta-sect{background:linear-gradient(135deg,var(--blue-dark),var(--blue));color:#fff;padding:72px 0;text-align:center}
+.cta-sect h2{font-family:'Playfair Display',serif;font-size:42px;margin-bottom:16px}
+.cta-sect p{font-size:18px;opacity:.9;margin-bottom:32px}
+.cta-phone-box{display:inline-flex;align-items:center;gap:8px;background:#f5c518;border-radius:8px;padding:10px 20px;margin-bottom:24px;box-shadow:0 3px 10px rgba(245,197,24,.35);font-size:18px;font-weight:800;color:#0d1f17;text-decoration:none;}
+
+.footer{background:var(--dark);color:#8fa8c8;padding:48px 0 24px}
+.footer-grid{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:40px;margin-bottom:40px}
+.footer h4{color:#fff;font-size:15px;font-weight:700;margin-bottom:14px}
+.footer ul{list-style:none}
+.footer ul li{margin-bottom:8px}
+.footer a{color:#8fa8c8;text-decoration:none;font-size:14px;transition:.2s}
+.footer a:hover{color:#fff}
+.footer-desc{font-size:14px;line-height:1.8;margin-top:8px}
+.footer-bottom{border-top:1px solid #1e3040;padding-top:20px;text-align:center;font-size:12px;opacity:.5}
+.footer .logo-text{color:#e0e8f0}
+
+/* COMPARISON STRIP — unique to Austin page */
+.compare-strip{background:var(--dark);color:#fff;padding:40px 0}
+.compare-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.compare-item{text-align:center;padding:18px;border-radius:12px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1)}
+.compare-item .big{font-family:'Playfair Display',serif;font-size:24px;font-weight:900;color:var(--gold)}
+.compare-item .small{font-size:13px;color:#8fa8c8;margin-top:4px}
+
+@media(max-width:900px){
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr;gap:32px}
+  .steps::before{display:none}
+}
+@media(max-width:768px){
+  .nav-phone-desktop{display:none}
+  .nav-phone-mobile{display:inline-flex}
+  .menu{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;padding:20px;box-shadow:0 8px 20px rgba(0,0,0,.1);z-index:200}
+  .menu.show{display:flex}
+  .ham{display:flex}
+  .hero h1{font-size:28px}
+  .hero p{font-size:16px}
+  .hero-phone-box a{font-size:28px}
+  .hero-phone-box{padding:14px 22px;gap:10px;width:100%;max-width:340px;margin:0 0 16px;display:flex}
+  .hero-phone-box .ph-icon{font-size:26px}
+  .hero-content{padding-left:20px!important;padding-right:20px!important}
+  .sect-title{font-size:28px}
+  .footer-grid{grid-template-columns:1fr}
+  .hero-badge{margin-top:-15px;font-size:15px;padding:10px 16px}
+  .hero-content{padding:50px 0}
+  .flex-hero{flex-direction:column;width:100%;max-width:340px}
+  .flex-hero .btn{
+    width:100%;
+    justify-content:center;
+    white-space:nowrap;
+    font-size:15px!important;
+    padding:15px 12px!important;
+  }
+}
+@media(max-width:400px){
+  .hero h1{font-size:24px}
+  .hero-phone-box a{font-size:24px}
+}
+</style>
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-wrap">
+    <div class="ticker-move">
+      <span>🎸 Trusted by Austin Families Since Day One</span>
+      <span>📞 <em>Free Referral — No Cost to You</em></span>
+      <span>🦷 Implants &amp; Crowns — Austin Specialists Ready</span>
+      <span>⚡ Same-Day Toothache Relief in ATX</span>
+      <span>😁 Invisalign &amp; Braces — Austin Orthodontists</span>
+      <span>🎸 Trusted by Austin Families Since Day One</span>
+      <span>📞 <em>Free Referral — No Cost to You</em></span>
+      <span>🦷 Implants &amp; Crowns — Austin Specialists Ready</span>
+      <span>⚡ Same-Day Toothache Relief in ATX</span>
+      <span>😁 Invisalign &amp; Braces — Austin Orthodontists</span>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="wrap nav-wrap">
+    <div class="logo">
+      <div class="logo-icon">🦷</div>
+      <div class="logo-text">Heall<span>usa</span></div>
+      <span class="flag-pair" style="margin-left:8px">
+        <img src="https://flagcdn.com/w40/us.png" width="26" height="17" style="border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,0.2)" alt="USA" title="USA">
+        <img src="https://flagcdn.com/w40/us-tx.png" width="26" height="17" style="border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,0.2)" alt="Texas" title="Texas">
+      </span>
+    </div>
+    <button class="ham" id="ham" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="menu" id="menu">
+      <a href="#services">Services</a>
+      <a href="#how">How It Works</a>
+      <a href="#why">Why Us</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="tel:+18448330097" class="nav-phone-box nav-phone-mobile" style="margin-top:8px">📞 Call Now</a>
+    </div>
+    <a href="tel:+18448330097" class="nav-phone-box nav-phone-desktop">📞 Call Now</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1200&q=80" alt="Dentist examining patient in Austin Texas clinic" loading="eager">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="wrap hero-content">
+    <div class="hero-badge">
+      <span class="flag-pair" style="margin-right:6px">
+        <img src="https://flagcdn.com/w40/us.png" width="20" height="14" style="border-radius:2px" alt="USA">
+        <img src="https://flagcdn.com/w40/us-tx.png" width="20" height="14" style="border-radius:2px" alt="Texas">
+      </span>
+      Austin's Free Dentist Finder
+    </div>
+    <h1>Need a Dentist in <em>Austin</em>? We'll Connect You in Minutes.</h1>
+    <p>Whether it's a cracked tooth before a big meeting or you're just overdue for a cleaning — one call matches you with a vetted Austin dental clinic near you, today.</p>
+    <div class="hero-phone-box">
+      <span class="ph-icon">📞</span>
+      <a href="tel:+18448330097">(844) 833-0097</a>
+    </div>
+    <div class="flex flex-hero">
+      <a href="tel:+18448330097" class="btn btn-gold" style="font-size:17px;padding:16px 32px;white-space:nowrap">📞 Get Matched Now</a>
+      <a href="#services" class="btn btn-outline" style="white-space:nowrap">Browse Services</a>
+    </div>
+    <p class="hero-note">✓ Always Free &nbsp;|&nbsp; ✓ Zero Pressure &nbsp;|&nbsp; ✓ Austin, Round Rock &amp; Cedar Park</p>
+  </div>
+</section>
+
+<!-- COMPARISON STRIP - unique element -->
+<div class="compare-strip">
+  <div class="wrap">
+    <div class="compare-grid">
+      <div class="compare-item">
+        <div class="big">&lt; 2 min</div>
+        <div class="small">Average call-to-match time</div>
+      </div>
+      <div class="compare-item">
+        <div class="big">$0</div>
+        <div class="small">Cost to use Heallusa Austin</div>
+      </div>
+      <div class="compare-item">
+        <div class="big">180+</div>
+        <div class="small">Partner clinics in Greater Austin</div>
+      </div>
+      <div class="compare-item">
+        <div class="big">7 days</div>
+        <div class="small">A week phone coverage</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="sect bg-cream" id="services">
+  <div class="wrap">
+    <h2 class="sect-title">What We Help Austin Residents Find</h2>
+    <p class="sect-sub">Every kind of dental need, matched to a clinic that's actually nearby and actually available</p>
+    <div class="services-list">
+
+      <div class="service-row">
+        <div class="icon">😣</div>
+        <div>
+          <strong>Urgent Tooth Pain — Austin</strong>
+          <span>Throbbing tooth at 9pm on a Tuesday? We track which Austin clinics still have same-day slots open and get you booked.</span>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="icon">🦷</div>
+        <div>
+          <strong>Dental Implants — Austin Metro</strong>
+          <span>From single-tooth implants to full-arch restoration, we match you with implant specialists practicing across Austin and Round Rock.</span>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="icon">😁</div>
+        <div>
+          <strong>Invisalign &amp; Braces — Austin</strong>
+          <span>Adult Invisalign, teen braces, or a second opinion on treatment time — Austin orthodontists in our network handle all ages.</span>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="icon">✨</div>
+        <div>
+          <strong>Cosmetic Whitening &amp; Veneers</strong>
+          <span>Big event coming up? Austin cosmetic dentists in our network offer rush whitening and same-week veneer consults.</span>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="icon">🚨</div>
+        <div>
+          <strong>Emergency Dental Care — Open Now</strong>
+          <span>Knocked-out tooth, broken crown, swollen jaw — we know which Austin-area emergency clinics are taking walk-ins right now.</span>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="icon">👨‍👩‍👧</div>
+        <div>
+          <strong>Family &amp; Pediatric Dentistry</strong>
+          <span>One clinic for the whole household — Austin family dentists in our network see toddlers through grandparents.</span>
+        </div>
+      </div>
+
+      <!-- IMAGE BANNER -->
+      <div class="service-img-banner">
+        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80" alt="Modern dental equipment Austin clinic" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?w=600&q=80" alt="Dental implant specialist Austin" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=600&q=80" alt="Teeth whitening results Austin patient" loading="lazy">
+      </div>
+
+      <div class="service-row">
+        <div class="icon">🦴</div>
+        <div>
+          <strong>Wisdom Teeth &amp; Oral Surgery</strong>
+          <span>Board-certified oral surgeons in the Austin network handle extractions, bone grafts, and surgical referrals fast.</span>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="icon">🩺</div>
+        <div>
+          <strong>Gum Disease Treatment</strong>
+          <span>Bleeding gums or a periodontal diagnosis? Austin periodontists in-network offer deep cleanings and ongoing maintenance care.</span>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="icon">😴</div>
+        <div>
+          <strong>Sedation Dentistry</strong>
+          <span>Dental anxiety is common — we connect you with Austin clinics offering nitrous, oral, or IV sedation options.</span>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="icon">👴</div>
+        <div>
+          <strong>Dentures &amp; Senior Dental Care</strong>
+          <span>Full or partial dentures, implant-supported options, and Medicare-friendly plans for Austin's senior community.</span>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="icon">🌙</div>
+        <div>
+          <strong>TMJ &amp; Night Guards</strong>
+          <span>Jaw clicking, grinding, headaches? Austin dentists in our network fit custom night guards and treat TMJ disorders.</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- AUSTIN AREAS -->
+<section class="sect" id="neighborhoods">
+  <div class="wrap">
+    <h2 class="sect-title">Coverage Across Greater Austin</h2>
+    <p class="sect-sub">From South Congress to North Austin and out to the suburbs — we've got a clinic near you</p>
+    <div class="neighborhoods">
+      <span class="neighborhood-tag">📍 Downtown Austin</span>
+      <span class="neighborhood-tag">📍 South Congress (SoCo)</span>
+      <span class="neighborhood-tag">📍 East Austin</span>
+      <span class="neighborhood-tag">📍 North Austin</span>
+      <span class="neighborhood-tag">📍 Zilker</span>
+      <span class="neighborhood-tag">📍 Mueller</span>
+      <span class="neighborhood-tag">📍 Round Rock</span>
+      <span class="neighborhood-tag">📍 Cedar Park</span>
+      <span class="neighborhood-tag">📍 Pflugerville</span>
+      <span class="neighborhood-tag">📍 Georgetown</span>
+      <span class="neighborhood-tag">📍 Leander</span>
+      <span class="neighborhood-tag">📍 Kyle</span>
+      <span class="neighborhood-tag">📍 Buda</span>
+      <span class="neighborhood-tag">📍 + Greater Austin Metro</span>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="sect bg-cream" id="how">
+  <div class="wrap">
+    <h2 class="sect-title">Getting Matched Takes 3 Steps</h2>
+    <p class="sect-sub">No forms, no directories to scroll through — just a phone call</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Tell Us What You Need</h3>
+        <p>Call and describe your situation — pain level, type of care, insurance. Takes about a minute.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>We Check Availability</h3>
+        <p>We pull real-time openings from Austin-area clinics that match what you're looking for.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>You Get Booked</h3>
+        <p>We confirm your appointment directly — often same-day, always at no cost to you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="sect" id="why">
+  <div class="wrap">
+    <h2 class="sect-title">Why Austin Locals Use Heallusa</h2>
+    <p class="sect-sub">A faster, simpler way to find dental care than scrolling review sites</p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">🛡️</div>
+        <h3>Vetted Austin Clinics Only</h3>
+        <p>Every dentist in our Austin network is licensed and verified before we ever refer a patient to them.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">💰</div>
+        <h3>Always Free for You</h3>
+        <p>We're never paid by you — our referral service costs Austin patients nothing, ever.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Real Same-Day Slots</h3>
+        <p>We track actual openings, not outdated directory listings — so the appointment we offer is real.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎸</div>
+        <h3>Local to Austin</h3>
+        <p>We know the difference between a Round Rock commute and a downtown one — and match accordingly.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📞</div>
+        <h3>A Person Answers</h3>
+        <p>No chatbot, no hold music maze — a live specialist picks up and starts working on your match immediately.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⭐</div>
+        <h3>4.8-Star Rated Service</h3>
+        <p>Hundreds of Austin patients have used Heallusa to skip the search and get seen faster.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEO CONTENT SECTION -->
+<section class="seo-sect" id="about">
+  <div class="wrap">
+
+    <h2>Finding a Dentist in Austin Without the Guesswork</h2>
+    <p>Austin's population growth has made one thing harder than it should be: getting a dental appointment quickly. Established practices across <strong>Central Austin, North Austin, and the surrounding suburbs</strong> are often booked weeks out, leaving people with sudden tooth pain or simple cleanings stuck searching review sites with no idea who actually has availability. Heallusa was built to remove that friction — one phone call, and we tell you who can see you and when.</p>
+
+    <h3>Covering Austin and the Surrounding Suburbs</h3>
+    <p>Our network spans the <strong>full Austin metro area</strong> — not just the urban core. Whether you're near the Capitol, working out of a downtown high-rise, or living out toward Round Rock, Cedar Park, Pflugerville, or Georgetown, we have relationships with dental clinics close enough to actually be convenient.</p>
+    <p>Commute time matters as much as quality of care. We factor in where you are in the metro before suggesting a match, not just which clinic has the best online reviews.</p>
+
+    <h3>The Services Austin Patients Ask For Most</h3>
+    <p>Based on the calls we field daily, here's what Austin residents most commonly need help finding:</p>
+    <ul>
+      <li><strong>Emergency Dental Visits:</strong> Sudden pain, broken teeth, and lost fillings — handled same-day wherever possible.</li>
+      <li><strong>Implants &amp; Full-Mouth Restoration:</strong> Austin has a growing number of implant specialists; we know which ones fit different budgets and timelines.</li>
+      <li><strong>Invisalign for Working Professionals:</strong> A popular request from Austin's tech and business community looking for discreet treatment.</li>
+      <li><strong>Pediatric Appointments:</strong> Parents relocating to Austin frequently need a new family dentist fast — we prioritize same-week pediatric slots.</li>
+      <li><strong>Cosmetic Consultations:</strong> Veneers, bonding, and whitening ahead of weddings or events are a steady source of urgent requests.</li>
+      <li><strong>Sedation Options:</strong> Anxious patients looking specifically for nitrous oxide or oral sedation providers.</li>
+      <li><strong>Senior &amp; Denture Care:</strong> Austin's retiree population relies on us for Medicare-compatible denture and implant providers.</li>
+    </ul>
+
+    <h3>What Happens When You Call</h3>
+    <p>You won't be handed a list of ten names to call yourself. A live coordinator asks a few quick questions — type of issue, urgency, general area of Austin, insurance situation — and checks current openings across our partner network in real time. In most cases, you're matched and scheduled before you hang up.</p>
+
+    <h3>Insurance and Out-of-Pocket Options</h3>
+    <p>Heallusa's Austin network includes clinics that accept Delta Dental, Cigna, Aetna, Humana, MetLife, and United Healthcare, along with several practices offering transparent cash-pay pricing for patients without dental coverage. Tell us your situation and we'll only suggest clinics that actually work for it.</p>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sect bg-cream" id="faq">
+  <div class="wrap">
+    <h2 class="sect-title">Austin Dentist Questions, Answered</h2>
+    <p class="sect-sub">The things people usually ask before calling</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Can you really get me seen the same day in Austin?</h3>
+        <p>Often, yes — especially for urgent pain. It depends on real-time openings, but our coordinators check live availability rather than relying on outdated listings.</p>
+      </div>
+      <div class="card">
+        <h3>Do you cover Round Rock and Cedar Park too?</h3>
+        <p>Yes, our network extends through the full Austin metro, including Round Rock, Cedar Park, Pflugerville, Georgetown, Leander, Kyle, and Buda.</p>
+      </div>
+      <div class="card">
+        <h3>What does Heallusa charge for this service?</h3>
+        <p>Nothing. We're a free referral service — the dental clinic you're matched with bills you directly, same as any normal dental visit.</p>
+      </div>
+      <div class="card">
+        <h3>I don't have dental insurance — can you still help?</h3>
+        <p>Yes. Several clinics in our Austin network offer cash-pay pricing and payment plans for patients without coverage.</p>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <strong>⚖️ Disclaimer:</strong> Heallusa is a free referral service connecting individuals with independent dental clinics and specialists in the Austin, Texas area. All clinics and providers are independently operated, and Heallusa does not warrant or guarantee any work performed. It is the responsibility of the individual to confirm that any provider holds the appropriate license and certification for the state of Texas. Persons shown in photos or videos are models and not specialists listed on this site.
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-sect" id="contact">
+  <div class="wrap">
+    <h2>Ready to Get Matched With an Austin Dentist?</h2>
+    <p>One call, and we start checking availability across our Austin network right away — <strong>no cost, no obligation</strong>.</p>
+    <a href="tel:+18448330097" class="cta-phone-box">📞 Call Heallusa Austin</a>
+    <div class="flex" style="justify-content:center">
+      <a href="tel:+18448330097" class="btn btn-gold" style="font-size:17px;padding:16px 36px">📞 Speak to a Specialist Now</a>
+    </div>
+    <p style="margin-top:20px;font-size:14px;opacity:.8">Mon–Fri 7am–7pm | Sat 10am–5pm CST | Serving Austin &amp; Surrounding Suburbs</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="margin-bottom:14px">
+          <div class="logo-icon" style="background:var(--blue-light)">🦷</div>
+          <div class="logo-text" style="color:#e0e8f0">Heall<span style="color:var(--gold)">usa</span></div>
+          <span class="flag-pair" style="margin-left:8px">
+            <img src="https://flagcdn.com/w40/us.png" width="26" height="17" style="border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,0.3)" alt="USA">
+            <img src="https://flagcdn.com/w40/us-tx.png" width="26" height="17" style="border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,0.3)" alt="Texas">
+          </span>
+        </div>
+        <p class="footer-desc">A free referral service connecting Austin-area residents with trusted, vetted local dentists.</p>
+      </div>
+      <div>
+        <h4>Dental Services</h4>
+        <ul>
+          <li><a href="#services">Emergency Dental Care</a></li>
+          <li><a href="#services">Dental Implants</a></li>
+          <li><a href="#services">Invisalign &amp; Braces</a></li>
+          <li><a href="#services">Cosmetic Whitening</a></li>
+          <li><a href="#services">Family Dentistry</a></li>
+          <li><a href="#services">Oral Surgery</a></li>
+          <li><a href="#services">Sedation Dentistry</a></li>
+          <li><a href="#services">Senior Dental Care</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#why">About Us</a></li>
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <h4 style="margin-top:20px">Resources</h4>
+        <ul>
+          <li><a href="https://www.ada.org" target="_blank" rel="noopener nofollow">American Dental Association</a></li>
+          <li><a href="https://tsbde.texas.gov" target="_blank" rel="noopener nofollow">Texas State Board of Dental Examiners</a></li>
+          <li><a href="https://www.deltadental.com" target="_blank" rel="noopener nofollow">Delta Dental</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p style="font-size:14px;margin-bottom:8px">📞 <a href="tel:+18448330097">Call Heallusa Austin</a></p>
+        <p style="font-size:14px;margin-bottom:16px">🌐 austin.heallusa.com</p>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#faq">Privacy Policy</a></li>
+          <li><a href="#faq">Terms of Service</a></li>
+          <li><a href="#faq">Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Heallusa. All rights reserved. | Dentist Finder for Austin, Texas | Connecting Patients with Certified Local Dental Providers</p>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+18448330097" class="fab" aria-label="Call Heallusa Austin now"><div class="fab-inner">📞</div></a>
+
+<!-- FAQ SCHEMA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you really get me seen the same day in Austin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often, yes, especially for urgent pain. Our coordinators check real-time openings across the Austin network rather than relying on outdated directory listings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you cover Round Rock and Cedar Park too?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our network extends through the full Austin metro, including Round Rock, Cedar Park, Pflugerville, Georgetown, Leander, Kyle, and Buda."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Heallusa charge for this service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nothing. Heallusa is a free referral service. The dental clinic you are matched with bills you directly, the same as any normal dental visit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I don't have dental insurance, can you still help?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Several clinics in the Austin network offer cash-pay pricing and payment plans for patients without dental coverage."
+      }
+    }
+  ]
+}
+</script>
+
+<script>
+function toggleMenu(){
+  document.getElementById('menu').classList.toggle('show');
+}
+document.addEventListener('click',e=>{
+  const m=document.getElementById('menu');
+  const h=document.getElementById('ham');
+  if(window.innerWidth<=768&&!m.contains(e.target)&&!h.contains(e.target)){
+    m.classList.remove('show');
+  }
+});
+</script>
+</body>
+</html>
